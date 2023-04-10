@@ -1,0 +1,51 @@
+main > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 4rem;
+  border-bottom: 1px solid #ccc;
+  height: 150px;
+}
+
+.project {
+  font-family: 'Times New Roman', Times, serif
+  font-size: 4em;
+  width: calc(100% - 1em);
+  height: 350px;
+  background: #ffebcc;
+  background: #fafafa;
+  color: #222;
+  box-shadow: 0 3px 6px 10px #ccc;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.project-name {
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0 0 1em;
+  border-bottom: 2px solid gold;
+}
+
+.project p {
+  font-size: 1.3em;
+  font-weight: 100;
+  margin: 0 0 1em;
+}
+
+.project p:last-child {
+  margin-bottom: 0;
+}
+
+section:nth-of-type(odd) img {
+  width: 240px;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+section:nth-of-type(even) img {
+  width: 240px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+}

@@ -1,0 +1,54 @@
+/* formatting */
+section {
+  padding-top: 120px;
+  background-color: greenyellow;
+}
+.tab {
+  margin-left: 20px;
+}
+.double_tab {
+  margin-left: 40px;
+}
+.flex-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+  font-style: oblique;
+  text-indent: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  background-color: rgb(8, 31, 93);
+}
+.flex-container > div > h1 {
+  text-align: center;
+}
+.flex-container > form > div > label {
+  text-decoration-color: blue;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.flex-container > form > div {
+  flex-wrap: wrap;
+  text-indent: 20px;
+  background-color: rgb(209, 6, 6);
+}
+.flex-container > form > select:hover {
+  background-color: rgb(10, 10, 131);
+}
+p {
+  padding: 20px;
+  font-style: oblique;
+  text-indent: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: flex;
+}
+p:hover {
+  position: relative;
+  background-color: rgb(73, 4, 83);
+}

@@ -1,0 +1,52 @@
+h1,
+h2,
+section {
+  font-family: "Times New Roman", Times, sans-serif;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+section > video {
+  align-items: center;
+  height: 128px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section > img {
+  align-items: center;
+  height: 256px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section:nth-of-type(odd) > img {
+  float: left;
+  margin: 0 24px 24px 0;
+}
+
+section:nth-of-type(even) > img {
+  float: right;
+  margin: 0 0 24px 24px;
+}
+
+section {
+  border-top: 2px solid white;
+  border-bottom: 1px solid whitesmoke;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: 50px;
+}

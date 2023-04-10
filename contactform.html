@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles for all pages -->
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="external.css" />
+    <title>Order Form</title>
+    <style></style>
+  </head>
+  <header>
+    <span class="name">Mehran Geranmayeh</span>
+    <nav class="links">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="portfolio.html">PORTFOLIO</a>
+      <a class="active" href="contactform.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <body>
+    <section>
+      <div class="flex-container">
+        <h1>Contact Form</h1>
+      </div>
+      <br />
+      <form action="thankyou.html" method="post">
+        <div class="flex-container">
+          <!-- radio selection allow one selection -->
+          <label for="title">Title:</label>
+          <input class="double_tab" type="radio" name="title" value="Mrs." />
+          <label for="Mrs.">Mrs.</label>
+          <input class="double_tab" type="radio" name="title" value="Mr." />
+          <label for="Mr.">Mr.</label>
+        </div>
+        <br />
+        <div class="flex-container">
+          <label for="fname">First Name:</label>
+          <input
+            class="tab"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <br />
+        <div class="flex-container">
+          <label for="lname">Last Name:</label>
+          <input
+            class="tab"
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <br />
+        <div class="flex-container">
+          <label for="email">E-mail:</label>
+          <input
+            class="tab"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="email@gmail.com"
+            required
+          />
+        </div>
+        <br />
+        <div class="flex-container">
+          <label for="Message">Message:</label>
+          <textarea
+            class="tab"
+            rows="4"
+            cols="50"
+            wrap="hard"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <br />
+        <div class="flex-container">
+          <input
+            class="double_tab"
+            type="reset"
+            style="width: 100px; height: 50px"
+          />
+          <input
+            class="double_tab"
+            type="submit"
+            style="width: 100px; height: 50px"
+          />
+        </div>
+        <br />
+      </form>
+    </section>
+    <p>Please click "Submit" to share contact form.</p>
+  </body>
+</html>
